@@ -1,31 +1,19 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.env
-.venv/
-env/
+.env
 
 # Java
+target/
 *.class
-*.jar
-*.war
-*.ear
-hs_err_pid*
+
+# Node/Tailwind
+node_modules/
+dist/
 
 # PHP
 vendor/
-.env
 
-# Node / Tailwind
-node_modules/
-dist/
-.cache/
-
-# IDE / OS
+# IDE
 .vscode/
 .idea/
-*.log
-.DS_Store
-Thumbs.db
