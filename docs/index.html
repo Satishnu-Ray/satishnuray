@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Satishnu • Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satishnu Ray | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/typed.js@2.0.12"></script>
 </head>
-<body>
-  <h1>Satishnu Ray</h1>
-  <p>Full-stack developer | Python • Java • PHP • Tailwind</p>
-  <ul>
-    <li><a href="https://github.com/Satishnu-Ray/Myweb">Project 1</a></li>
-    <li><a href="https://github.com/Satishnu-Ray/satishnuray">Project 2</a></li>
-  </ul>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="p-5 bg-gray-800 shadow-md flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-400">Satishnu Ray</h1>
+    <div class="space-x-6">
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#projects" class="hover:text-blue-400">Projects</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center">
+    <h2 class="text-4xl md:text-6xl font-bold">Hi, I'm <span class="text-blue-400">Satishnu</span></h2>
+    <h3 class="text-2xl md:text-3xl mt-4">
+      <span id="typed"></span>
+    </h3>
+    <a href="#projects" class="mt-6 px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition">
+      View My Work
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="p-10 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-lg text-gray-300">
+      I'm a passionate <span class="text-blue-400">Full-stack Developer</span> skilled in 
+      Python, Java, PHP, HTML, and Tailwind CSS.  
+      I love building interactive, scalable, and professional web applications.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="p-10">
+    <h2 class="text-3xl font-bold mb-6">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transform transition">
+        <h3 class="text-xl font-bold text-blue-400">Project 1</h3>
+        <p class="text-gray-300 mt-2">Description of project 1 goes here...</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transform transition">
+        <h3 class="text-xl font-bold text-blue-400">Project 2</h3>
+        <p class="text-gray-300 mt-2">Description of project 2 goes here...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-10 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+    <p>Email: <a href="mailto:rsatishnu@gmail.com" class="text-blue-400">rsatishnu@gmail.com</a></p>
+    <p>Twitter: <a href="https://twitter.com/satishnuray" target="_blank" class="text-blue-400">@satishnuray</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/satishnu-r-a6444010b" target="_blank" class="text-blue-400">LinkedIn Profile</a></p>
+  </section>
+
+  <footer class="p-5 text-center bg-gray-900 text-gray-500">
+    © 2025 Satishnu Ray | Built with ❤️
+  </footer>
+
+  <!-- Typed.js Animation -->
+  <script>
+    new Typed('#typed', {
+      strings: ["Full-stack Developer", "Python Enthusiast", "Java & PHP Coder", "Tailwind Designer"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+
 </body>
 </html>
