@@ -64,3 +64,15 @@
 
 ---
 ⭐️ From [Satishnu-Ray](https://github.com/Satishnu-Ray)
+
+## Community & Contribution Rules
+
+- Please respond to Issues & PRs within 48 hours.
+- Use labels (`bug`, `feature`, `help wanted`) for clarity.
+- Always link issues in PRs (`Closes #12`).
+- Roadmap and TODO are tracked below.
+## Roadmap
+- [ ] Add user authentication
+- [ ] Add Docker support
+- [ ] Setup CI/CD
+
