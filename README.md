@@ -13,6 +13,7 @@
 - 🤝 Open to collaborating on **open-source projects**  
 - 📫 Reach me at: **rsatishnu@gmail.com**  
 
+
 ---
 
 ## 🛠️ Tech Stack  
@@ -59,8 +60,10 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Satishnu-Ray&label=Profile%20Views&color=3b82f6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Satishnu-Ray&label=Profile%20Views&color=3b82f6&style=flat" alt="Profile Views" />   
 </p>
+
+![CI](https://github.com/Satishnu-Ray/satishnuray/actions/workflows/ci.yml/badge.svg)
 
 ---
 ⭐️ From [Satishnu-Ray](https://github.com/Satishnu-Ray)
